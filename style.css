@@ -17,13 +17,14 @@ body {
 .frame-container {
   display: flex;
   justify-content: space-between;
+
 }
 
 .description {
   text-align: center;
 }
 
-.icon-bar, 
+.icon-bar,
 a {
   display: flex;
   justify-content: space-evenly;
