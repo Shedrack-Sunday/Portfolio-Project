@@ -17,7 +17,6 @@ body {
 .frame-container {
   display: flex;
   justify-content: space-between;
-
 }
 
 .description {
