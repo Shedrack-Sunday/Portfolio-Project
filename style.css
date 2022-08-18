@@ -1,5 +1,3 @@
-
-
 body {
     background-image: url('image.svg');
     margin: 0;
@@ -8,16 +6,11 @@ body {
     background-size: 100% 100%;
 }
 
-
-
 #frame-container{
     display: flex;
     align-items: center;
     justify-content: space-between;
-
 }
-
-
 
 .icon-bar{
     display: flex;
@@ -30,14 +23,11 @@ body {
     text-align: center;
 }
 
-
-
 #Greeting-text{
     color:
-    #172B4D ;
+    #172B4D;
 }
 
 #profession-text{
     color:#36B37F;
-
 }
