@@ -14,17 +14,17 @@ body {
   background-position: top;
 }
 
-#frame-container {
+.frame-container {
   display: flex;
-  align-items: center;
   justify-content: space-between;
 }
 
 .description {
   text-align: center;
 }
- 
-.icon-bar, a{
+
+.icon-bar, 
+a {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
