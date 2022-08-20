@@ -6,7 +6,7 @@ body {
 }
 
 .main-class {
-  background-image: url('image.svg');
+  background-image: url('images/header-illsutration-mobile@2x.png');
   margin: 0;
   padding: 25px;
   background-attachment: fixed;
@@ -61,4 +61,236 @@ li {
 
 a {
   color: black;
+}
+
+.arrow-icon {
+  display: flex;
+  align-items: center;
+  margin-right: 167px;
+  margin-left: 168px;
+  width: auto;
+}
+
+.icon-x{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  width: 40px;
+  height: 40px;
+  border: 1px solid #d7dbdd;
+  border-radius: 32px;
+  margin-right: 167px;
+  margin-left: 168px;
+  box-shadow: 
+    0 2px 1px rgb(0, 0, 0, 0.5), 
+    0 2px 3px rgb(0, 0, 0, 0.05), 
+    0 4px 8px rgb(0, 0, 0, 0.05);
+}
+
+#line {
+  align-self: center;
+  width: 48px;
+  top: 10px;
+  height: 4px;
+  background-color: #36b37e;
+  border-radius: 24px;
+
+}
+
+* {
+  box-sizing: border-box;
+}
+#text-tag{
+  text-align: center;
+  font-size: 35px;
+  color: #172b4d;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 26px;
+  margin-right: 22px;
+
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+.content {
+  padding-top: 34px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.content ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+}
+
+.content a {
+  margin: 25px 10px 0 12px;
+  display: block;
+  width: 100%;
+  align-content: center;
+}
+
+.name {
+  color: #172b4d;
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 52px;
+  line-height: 107%;
+  margin: 30px 0 20px 0;
+}
+
+.content .projects-container {
+  display: inline-grid;
+  margin: 68px 0;
+  row-gap: 24px;
+}
+
+.content h2 {
+  color: #172b4d;
+  font-size: 45px;
+  font-weight: bold;
+  line-height: 107%;
+  margin: 30px 0 20px 0;
+  text-align: center;
+}
+
+.content .project-box {
+  border: 2px solid #d0d9d4;
+  border-radius: 5px;
+}
+
+.projects-container .project-details {
+  border-radius: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+}
+
+.projects-container a {
+  color: #3a4a42;
+  margin: 6px;
+  padding: 9px;
+  width: max-content;
+  text-align: center;
+  font-size: 12px;
+  line-height: 16px;
+  background-color: #ebf0ee;
+  border-radius: 5px;
+  font-weight: 600;
+}
+
+.projects-container div {
+  border: 1px #ebf0ee;
+  text-align: center;
+}
+
+.projects-container img {
+  width: 100%;
+}
+
+.projects-container h3 {
+  font-size: 24px;
+  line-height: 32px;
+  margin: 16px 16px 16px 16px;
+  font-weight: 600;
+}
+
+.projects-container .button {
+  background-color: #36b37e;
+  border-radius: 7px;
+  color: white;
+  padding: 12px 12px;
+  text-align: center;
+  display: inline-block;
+  font-size: 17px;
+  line-height: 117%;
+  margin: 29px 103px 24px 103px;
+  border: none;
+}
+
+.about {
+  background-image: url('images/background1.svg');
+  background-position: top left;
+  background-repeat: no-repeat;
+}
+
+.content .skills-box {
+  border: 2px solid #d0d9d4;
+  border-radius: 5px;
+  background-color: #ebf0ee;
+}
+
+.about h3 {
+  color: #172b4d;
+  text-align: center;
+  font-weight: 350;
+  margin: 24px 15px 1px;
+  font-style: normal;
+  line-height: 32px;
+  vertical-align: top;
+}
+
+.content .lang-container {
+  display: inline-grid;
+  margin: 59px 0;
+  row-gap: 54px;
+}
+
+.lang-container a {
+  color: #36b37e;
+  margin: 6px;
+  padding: 9px;
+  width: max-content;
+  text-align: center;
+  font-size: 12px;
+  line-height: 16px;
+  background-color: white;
+  border-radius: 5px;
+  font-weight: 600;
+}
+
+.about .button {
+  background-color: #36b37e;
+  border-radius: 7px;
+  color: white;
+  padding: 12px 12px;
+  text-align: center;
+  display: inline-block;
+  font-size: 17px;
+  line-height: 117%;
+  margin: 29px 103px 24px 103px;
+  border: none;
+}
+
+.lang-container img {
+  width: 150px;
+  height: 150px;
+  object-position: 0 25px;
+}
+
+.lang-container ul {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: #ebf0ee;
+  margin: 24px 30px 24px 30px;
+}
+
+.content button:hover {
+  background-color: #008552;
 }
