@@ -71,10 +71,9 @@ a {
   width: auto;
 }
 
-
 .arrow-icon i {
   font-size: 30px;
-  color:#172b4d;
+  color: #172b4d;
 }
 
 .icon-x {
@@ -89,7 +88,6 @@ a {
   margin-right: 167px;
   margin-left: 168px;
   box-shadow:
-
     0 2px 1px rgb(0, 0, 0, 0.5),
 
     0 2px 3px rgb(0, 0, 0, 0.05),
