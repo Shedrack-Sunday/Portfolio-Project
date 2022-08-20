@@ -11,7 +11,7 @@
 
 ## Built With
 
-- HTML/SS
+- HTML/CSS
 - Figma
 - VSCode
 
