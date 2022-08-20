@@ -133,7 +133,6 @@ a {
   justify-content: center;
   list-style: none;
   align-items: center;
-  justify-content: space-between;
   padding: 0;
   margin: 0;
 }
@@ -246,6 +245,7 @@ a {
   font-style: normal;
   line-height: 32px;
   vertical-align: top;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .content .lang-container {
@@ -304,12 +304,14 @@ a {
 .about h2 {
   font-family: Arial, Helvetica, sans-serif;
 }
-.about p {
-  font-family: Arial, Helvetica, sans-serif;
-}
 
 .project-details h3 {
   font-family: Arial, Helvetica, sans-serif;
+}
+
+.skills-box a {
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
 }
 
 .project-details ul a {
@@ -324,16 +326,7 @@ a {
   color: #344563;
 }
 
-.skills-box a{
-  font-family: Arial, Helvetica, sans-serif;
-  text-decoration: none;
-}
-
-.skills-box li{
+.skills-box li {
   display: flex;
   flex: 1;
-}
-
-#edit-picture {
-  
 }
