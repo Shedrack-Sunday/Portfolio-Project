@@ -314,6 +314,10 @@ a {
   text-decoration: none;
 }
 
+.social a {
+  color: #505f79;
+}
+
 .project-details ul a {
   font-family: Arial, Helvetica, sans-serif;
   text-decoration: none;
@@ -329,4 +333,95 @@ a {
 .skills-box li {
   display: flex;
   flex: 1;
+}
+
+.div-contact {
+  background-image: url("images/Frame.png");
+  background-position: bottom right;
+  background-repeat: no-repeat;
+}
+
+.contact .email-address {
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #42526e;
+  text-decoration: none;
+}
+
+.buttom-contact-form {
+  background-color: #36b37e;
+  border-radius: 7px;
+  color: white;
+  padding: 12px 12px;
+  text-align: center;
+  display: inline-block;
+  font-size: 17px;
+  line-height: 117%;
+  margin-inline: auto;
+  border: none;
+  width: 129px;
+}
+
+.buttom-contact-form:focus {
+  background-color: #008552;
+}
+
+.buttom-contact-form:hover {
+  background-color: #36b37f;
+}
+
+.contact-form input {
+  padding: 0.9em;
+  border-radius: 0.25em;
+  border: 1.5px solid lightgray;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+}
+
+.contact-form textarea {
+  outline: none;
+  padding: 12px;
+  border: 1.5px solid lightgray;
+  border-radius: 0.25em;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+  line-height: 24px;
+  color: #091e42;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  outline: none;
+  border: 1.5px solid #36b37e;
+}
+
+.contact .contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.4em;
+  padding-inline: 1em;
+  margin-bottom: 2em;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.contact .name {
+  margin: 0;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 52px;
+  padding-inline: 0.5em;
+  padding-bottom: 1.6em;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.contact {
+  padding-bottom: 16em;
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  gap: 5px;
 }
