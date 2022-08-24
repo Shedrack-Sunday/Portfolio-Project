@@ -348,10 +348,6 @@ a {
   text-decoration: none;
 }
 
-.buttom-contact-form:focus {
-  background-color: #008552;
-}
-
 .buttom-contact-form {
   background-color: #36b37e;
   border-radius: 7px;
@@ -364,6 +360,10 @@ a {
   margin-inline: auto;
   border: none;
   width: 129px;
+}
+
+.buttom-contact-form:focus {
+  background-color: #008552;
 }
 
 .buttom-contact-form:hover {
@@ -425,4 +425,3 @@ a {
   text-decoration: none;
   gap: 5px;
 }
-
