@@ -34,7 +34,7 @@ a {
   margin: 1em;
 }
 
-@media(min-width: 768px) {
+@media (min-width: 768px) {
   .description {
     line-height: 32px;
     font-size: 20px;
@@ -43,17 +43,17 @@ a {
   }
 }
 
-@media(min-width: 768px) {
+@media (min-width: 768px) {
   .img-project1 {
     width: 920px;
   }
 }
 
 @media (min-width: 1024px) {
-   .header-background {
-     padding-bottom: 15em;
-   }
-}  
+  .header-background {
+    padding-bottom: 15em;
+  }
+}
 
 @media (max-width: 768px) {
   .header-background {
@@ -69,8 +69,7 @@ a {
 }
 
 @media (min-width: 768px) {
-
-  .header-background{
+  .header-background {
     background-image: url("images/Header-llustration-desktop.svg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -513,7 +512,7 @@ li {
     justify-content: center;
   }
 
-  #Greeting-text, 
+  #Greeting-text,
   #profession-text {
     font-family: 'Inter', sans-serif;
     font-style: normal;
@@ -545,7 +544,7 @@ li {
     width: 15%;
   }
 
-  #welcome-wrapper, 
+  #welcome-wrapper,
   #navbar {
     display: none;
   }
@@ -609,7 +608,6 @@ li {
 }
 
 @media screen and (min-width: 375px) and (max-width: 767px) {
-
   .desktop-nav-items {
     display: none;
   }
