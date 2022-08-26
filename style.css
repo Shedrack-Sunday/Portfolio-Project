@@ -14,10 +14,10 @@ ul {
 
 a {
   text-decoration: none;
+  color: black;
 }
 
-
-@media (max-width: 768px){
+@media (max-width: 768px) {
 .main-class {
   background-image: url('images/Header-llustration-desktop.svg');
   padding: 0;
@@ -25,7 +25,7 @@ a {
   background-size: 100% 100%;
 }
 }
-.header-background{
+.header-background {
   background-image: url('images/header-illsutration-mobile@2x.png');
   padding: 0;
   background-repeat: no-repeat;
@@ -34,7 +34,7 @@ a {
   margin: 1em;
 }
 
-@media(min-width: 768px){
+@media(min-width: 768px) {
   .description{
     line-height: 32px;
     font-size: 20px;
@@ -43,13 +43,13 @@ a {
   }
 }
 
-@media(min-width: 768px){
+@media(min-width: 768px) {
   .img-project1 {
     width: 920px;
   }
 }
 
-@media (min-width: 1024px){
+@media (min-width: 1024px) {
    .header-background{
     padding-bottom: 15em;
    }
@@ -61,7 +61,7 @@ a {
   }
 }
 
-@media (max-width: 768px){
+@media (max-width: 768px) {
   .main-class{
     margin-top: 27px;
     background-image: url("images/header-illsutration-mobile@2x.png")
@@ -131,10 +131,6 @@ li {
   font-family: Arial, Helvetica, sans-serif;
   color: black;
   text-decoration: none;
-}
-
-a {
-  color: black;
 }
 
 .arrow-icon {
@@ -562,7 +558,9 @@ a {
     height: 50%;
   }
 
-  .projects-container.container, .lang-container.container, .contact.container {
+  .projects-container.container, 
+  .lang-container.container, 
+  .contact.container {
     margin: 0 auto;
     width: 80%;
   }
@@ -612,14 +610,6 @@ a {
     display: none;
   }
 
-  .email-add {
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 32px;
-  }
-
   footer .social ul {
     display: flex;
     width: 80%;
@@ -636,5 +626,10 @@ a {
     align-items: center;
     justify-content: center;
     padding: 0 0 20px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
   }
 }
