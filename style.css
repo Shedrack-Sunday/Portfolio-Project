@@ -110,6 +110,18 @@ li {
   animation-name: slide;
 }
 
+@keyframes slide {
+  from {
+    margin-top: 100%;
+    width: 200%;
+  }
+
+  to {
+    margin-bottom: 0%;
+    width: 100%;
+  }
+}
+
 .introduction-text {
   text-align: center;
 }
