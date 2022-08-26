@@ -106,6 +106,8 @@ li {
 .description {
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
+  animation: 3s;
+  animation-name: slide;
 }
 
 .introduction-text {
