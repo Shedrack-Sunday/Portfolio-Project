@@ -12,10 +12,17 @@
 
 <body>
 
-
+  <div class="header-background">
   <header class="page-header">
-    <div>
+    <div id="welcome-wrapper">
       <a id="logo-text" href="welcome">Welcome</a>
+    </div>
+    <div class="desktop-nav-items">
+      <ul>
+        <li><a href="#">Portfolio</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
     </div>
     <nav id="navbar">
       <i class="fa fa-bars"></i>
@@ -73,13 +80,14 @@
       </li>
 
     </ul>
-  </main>
-
-  <div class="icon-x">
-    <div class="arrow-icon">
-      <i class="fa fa-angle-down"></i>
+  
+    <div class="icon-x">
+      <div class="arrow-icon">
+        <i class="fa fa-angle-down"></i>
+      </div>
     </div>
-  </div>
+  </main>
+</div>
 
   <div>
     <p id="text-tag">
@@ -90,7 +98,7 @@
 
   <div class="wrapper">
     <div class="content">
-      <section class="projects-container">
+      <section class="projects-container container">
         <div class="project-box">
           <img class="img-project1" alt="project1-image" src="images/placeholder.svg" />
           <div class="project-details">
@@ -119,6 +127,19 @@
         </div>
         <div class="project-box">
           <img class="img-project3" alt="project3-image" src="images/placeholder.svg" />
+          <div class="project-details">
+            <h3>Multi-Post Stories Gain+Glory</h3>
+            <ul>
+              <li><a href="#">Ruby on rails</a></li>
+              <li><a href="#">css</a></li>
+              <li><a href="#">JavaScript</a></li>
+              <li><a href="#">html</a></li>
+            </ul>
+            <button class="button" type="button">See Project</button>
+          </div>
+        </div>
+        <div class="project-box">
+          <img class="img-project2" alt="project2-image" src="images/placeholder.svg" />
           <div class="project-details">
             <h3>Multi-Post Stories Gain+Glory</h3>
             <ul>
@@ -167,7 +188,7 @@
 
         <button class="button " type="button">Get My Resume</button>
 
-        <section class="lang-container">
+        <section class="lang-container container">
           <div class="skills-box">
             <img class="ico-lang" alt="lang-ico" src="images/icon-languages.svg" />
             <h3>Languages</h3>
@@ -204,61 +225,60 @@
         </section>
       </section>
 
-      <section class="contact">
+      <div class="form-bg-img">
+      <section class="contact container">
         <p class="name">I'm always interested in hearing about new projects, so if you'd like to chat please get in
           touch.</p>
-        <div class="div-contact">
           <form class="contact-form" action="https://formspree.io/f/xayknejl" method="post">
             <input type="text" name="name" maxlength="30" placeholder="Full Name" required>
             <input type="email" name="email" placeholder="Email address" required>
             <textarea placeholder="Enter text here" rows="7" maxlength="500" required></textarea>
             <button type="submit" class="buttom-contact-form">Get in touch</button>
           </form>
-          <div class="social">
-            <ul>
-              <li>
-                <a href="#">
-                  <i class="fa fa-twitter"></i>
-                </a>
-              </li>
-
-              <li>
-                <a href="#">
-                  <i class="fa fa-linkedin"></i>
-                </a>
-              </li>
-
-
-              <li>
-                <a href="#">
-                  <i class="fa fa-medium"></i>
-                </a>
-              </li>
-
-
-              <li>
-                <a href="#">
-                  <i class="fa fa-github"></i>
-                </a>
-              </li>
-
-              <li>
-                <a href="#">
-                  <i class="fa fa-angellist"></i>
-                </a>
-              </li>
-
-            </ul>
-          </div>
-        </div>
-        <a class="email-address" href="#">Hannania002@gmail.com</a>
       </section>
+    </div>
 
     </div>
   </div>
+<footer>
+  <div class="social">
+    <ul>
+      <li>
+        <a href="#">
+          <i class="fa fa-twitter"></i>
+        </a>
+      </li>
+
+      <li>
+        <a href="#">
+          <i class="fa fa-linkedin"></i>
+        </a>
+      </li>
 
 
+      <li>
+        <a href="#">
+          <i class="fa fa-medium"></i>
+        </a>
+      </li>
 
+
+      <li>
+        <a href="#">
+          <i class="fa fa-github"></i>
+        </a>
+      </li>
+
+      <li>
+        <a href="#">
+          <i class="fa fa-angellist"></i>
+        </a>
+      </li>
+
+    </ul>
+  </div>
+  <a class="email-add" href="#">Hannania002@gmail.com</a>
+</footer>
 
 </body>
 
