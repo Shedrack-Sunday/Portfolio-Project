@@ -15,7 +15,9 @@
 - Figma
 - VSCode
 
+## Live Demo Link:
 
+[Live Demo Link](https://shedrack-sunday.github.io/Portfolio-Project/)
 
 ## Authors
 
