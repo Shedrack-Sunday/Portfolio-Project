@@ -50,6 +50,8 @@ a {
 .header-nav-mobile img {
   width: 30px;
   height: 20px;
+  color: #d0d9d4;
+  border: none;
 }
 
 .header-nav-mobile > ul > li {
