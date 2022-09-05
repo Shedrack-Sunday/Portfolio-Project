@@ -1,4 +1,4 @@
-const menuBtn = document.querySelector('.navbar');
+const navbar = document.querySelector('#navbar');
 const headerNavMobile = document.querySelector('.header-nav-mobile');
 const btnCloseNav = document.querySelector('.btn-close-nav');
 const linkPortfolio = document.querySelector('.link-portfolio');
