@@ -42,7 +42,6 @@ a {
   }
 }
 
-
 @media (min-width: 768px) {
   .img-project1 {
     width: 100%;
@@ -393,6 +392,12 @@ li {
   margin: 24px 30px 24px 30px;
 }
 
+.header-nav-mobile > button {
+  margin: 0.5em 0.5em;
+  align-self: flex-end;
+  cursor: pointer;
+}
+
 .content button:hover {
   background-color: #008552;
 }
@@ -483,12 +488,6 @@ li {
   font-size: large;
   line-height: 24px;
   color: #091e42;
-}
-
-.header-nav-mobile > button {
-  margin: 0.5em 0.5em;
-  align-self: flex-end;
-  cursor: pointer;
 }
 
 .header-nav-mobile img {
