@@ -392,6 +392,12 @@ li {
   margin: 24px 30px 24px 30px;
 }
 
+.header-nav-mobile > button {
+  margin: 0.5em 0.5em;
+  align-self: flex-end;
+  cursor: pointer;
+}
+
 .content button:hover {
   background-color: #008552;
 }
@@ -482,6 +488,71 @@ li {
   font-size: large;
   line-height: 24px;
   color: #091e42;
+}
+
+.header-nav-mobile img {
+  background-color: #fff;
+  width: 30px;
+  height: 20px;
+  border: none;
+  color: #67798e;
+}
+
+.nav-list {
+  align-self: flex-start;
+}
+
+.btn-close-nav {
+  border: #d7dbdd;
+  background-color: white;
+}
+
+.header-nav-mobile > ul > li {
+  margin-left: 28px;
+  margin-top: 40px;
+  font-size: 24px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.header-nav-mobile > ul > li > a {
+  font-size: 24px;
+  font-weight: 600;
+  color: #3a4a42;
+  cursor: pointer;
+}
+
+.link-portfolio:hover,
+.link-about:hover,
+.link-contact:hover {
+  color: var(--color-primary);
+}
+
+.header-nav-mobile {
+  position: absolute;
+  top: 0%;
+  right: 0%;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  border-radius: 5px;
+  font-family: 'Inter', sans-serif;
+}
+
+#navbar {
+  border: #d7dbdd;
+  background-color: white;
+  line-height: 20px;
+}
+
+.nav.hidden {
+  display: none;
+}
+
+.header-nav-mobile.hidden {
+  display: none;
 }
 
 .contact-form input:focus,

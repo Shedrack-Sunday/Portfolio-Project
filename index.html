@@ -24,9 +24,32 @@
         <li><a href="#">Contact</a></li>
       </ul>
     </div>
-    <nav id="navbar">
+    <button type="button" id="navbar">
       <i class="fa fa-bars"></i>
-    </nav>
+    </button>
+    <nav class="header-nav-mobile hidden">
+      <button type="button" class="btn-close-nav">
+        <img src="./images/close-icon.png" alt="cancel icon">
+      </button>
+      <ul class="nav-list">
+          <li>
+              <a href="#portfolio-id" class="link-portfolio">
+                  Portfolio
+              </a>
+          </li>
+          <li>
+              <a href="#about-id" class="link-about">
+                  About
+              </a>
+          </li>
+          <li>
+              <a href="#footer-id" class="link-contact">
+                  Contact
+              </a>
+          </li>
+      </ul>
+  </nav>
+
   </header>
 
   <main class="main-class">
@@ -101,7 +124,7 @@
       <section class="projects-container container">
         <div class="project-box">
           <img class="img-project1" alt="project1-image" src="images/placeholder.svg" />
-          <div class="project-details">
+          <div class="project-details" id="portfolio-id">
             <h3>Multi-Post Stories Gain+Glory</h3>
             <ul>
               <li><a href="#">Ruby on rails</a></li>
@@ -180,7 +203,7 @@
 
 
       </section>
-      <section class="about">
+      <section class="about" id="about-id">
         <h2 class="name">About me</h2>
         <p id="edit-picture"> I can help you build a product , feature or website Look through some of my work and
           experience! If you like what you see and have a project you need coded,
@@ -226,16 +249,16 @@
       </section>
 
       <div class="form-bg-img">
-      <section class="contact container">
+      <div class="contact container">
         <p class="name">I'm always interested in hearing about new projects, so if you'd like to chat please get in
           touch.</p>
-          <form class="contact-form" action="https://formspree.io/f/xayknejl" method="post">
+          <form class="contact-form"  id="footer-id" action="https://formspree.io/f/xayknejl" method="post">
             <input type="text" name="name" maxlength="30" placeholder="Full Name" required>
             <input type="email" name="email" placeholder="Email address" required>
             <textarea placeholder="Enter text here" rows="7" maxlength="500" required></textarea>
             <button type="submit" class="buttom-contact-form">Get in touch</button>
           </form>
-      </section>
+        </div>
     </div>
 
     </div>
@@ -279,7 +302,7 @@
   </div>
   <a class="email-add" href="#">Hannania002@gmail.com</a>
 </footer>
-
+<script src="index.js"></script>
 </body>
 
 </html>
