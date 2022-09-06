@@ -29,3 +29,4 @@ linkContact.addEventListener('click', () => {
   headerNavMobile.classList.add('hidden');
   navbar.classList.remove('hidden');
 });
+
