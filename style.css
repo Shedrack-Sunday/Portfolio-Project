@@ -493,8 +493,17 @@ li {
 .header-nav-mobile img {
   width: 30px;
   height: 20px;
-  color: #d0d9d4;
   border: none;
+  color: #67798e;
+}
+
+.nav-list {
+  align-self: flex-start;
+}
+
+.btn-close-nav {
+  border: #d7dbdd;
+  background-color: white;
 }
 
 .header-nav-mobile > ul > li {
@@ -527,13 +536,22 @@ li {
   width: 100%;
   height: 100%;
   background-color: white;
-  color: #3a4a42;
-  border: 1px lightgrey solid;
   border-radius: 5px;
+  font-family: 'Inter', sans-serif;
+}
+
+#navbar {
+  border: #d7dbdd;
+  background-color: white;
+  line-height: 20px;
 }
 
 .nav.hidden {
   display: none;
+}
+
+.btn-close-nav {
+  color: #67798e;
 }
 
 .header-nav-mobile.hidden {
