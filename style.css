@@ -729,7 +729,7 @@ li {
 }
 
 .modal {
-  max-width: min(900px);
+  max-width: 900px;
   background-color: white;
   padding: 16px;
   border-radius: 8px;
@@ -779,7 +779,7 @@ li {
     width: 65%;
     order: 1;
   }
-  
+
   .modal-btn {
     width: 35%;
     display: flex;
