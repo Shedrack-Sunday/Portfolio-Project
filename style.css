@@ -729,7 +729,7 @@ li {
 }
 
 .modal {
-  max-width: min(900px, 90%);
+  max-width: min(900px);
   background-color: white;
   padding: 16px;
   border-radius: 8px;
@@ -765,15 +765,14 @@ li {
   padding-top: 20px;
   order: 3;
 }
+
 .modal-desc {
   width: 100%;
   order: 2;
-  font-family: Inter;
+  font-family: 'Inter', sans-serif;
   color: #344563;
-  font-style: 16px;
   line-height: 30px;
 }
-
 
 @media screen and (min-width: 40em) {
   .title-container {
@@ -789,27 +788,27 @@ li {
     padding-top: 20px;
     order: 2;
   }
+
   .modal-desc {
     width: 100%;
     order: 3;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     color: #344563;
-    font-style: 16px;
     line-height: 30px;
   }
 }
 
 .modal-title {
   font-size: 32px;
-  color: #172B4D;
+  color: #172b4d;
   font-weight: 700;
-  font-family: Inter;
+  font-family: 'Inter', sans-serif;
 }
 
 .custom-btn {
   color: white;
   background-color: #36b37e;
-  font-family: Inter;
+  font-family: 'Inter', sans-serif;
   border-radius: 8px;
   padding: 8px 16px;
   font-size: 15px;
