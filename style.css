@@ -735,10 +735,22 @@ li {
   gap: 12px;
 }
 
+@media (max-width: 1051px) {
+  .btn-close-details {
+    background: #ebecf0;
+    position: relative;
+    right: 0;
+    left: 0;
+    grid-column: -2 / -1;
+    grid-row: 1/2;
+  }
+
+}  
+
 @media (min-width: 1050px) {
   .tag-mobile {
     background: #ebf0ee;
-    font-family: Inter, sans-serif;
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 0.75em;
@@ -756,11 +768,15 @@ li {
 
   .btn-close-details {
     background: #ebecf0;
-    position: relative;
     right: 0;
     left: 0;
     grid-column: -2 / -1;
     grid-row: 1/2;
+    margin-bottom: 5px
+  }
+
+  .btn-close-details img {
+    background-color: rgb(69, 67, 199);
   }
 
   .card-image-details-mobile {
@@ -808,12 +824,13 @@ li {
   font-size: 16px;
   letter-spacing: 2px;
   padding: 1em 1.5em;
-  color: white;
+  color: rgb(211, 202, 202);
   border-radius: 3px;
 }
 
 .btn-card-details-mobile > img {
   margin-left: 1.3em;
+  float: right;
 }
 
 .card-paragraph-mobile {
@@ -867,12 +884,19 @@ li {
 }
 
 .btn-close-details {
-  position: absolute;
   top: 0%;
   right: 5%;
   background: none;
-  width: 12px;
   height: 12px;
+  border: #d7dbdd;
+  text-align: end;
+  height: 0.5px;
+}
+
+.btn-close-details img {
+  height: 40px;
+  width: 40px;
+  background-color: rgb(168, 164, 164);
 }
 
 .tag-mobile {
