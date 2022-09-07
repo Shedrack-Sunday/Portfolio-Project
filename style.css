@@ -45,8 +45,7 @@ a {
 @media (min-width: 768px) {
   .img-project1 {
     width: 100%;
-    height: 100%;
-    object-fit: fill;
+    height: 15%;
   }
 }
 
@@ -720,4 +719,121 @@ li {
     font-size: 20px;
     line-height: 32px;
   }
+}
+
+.modal-wrapper {
+  background-color: rgba(0, 0, 0, 0.827);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal {
+  max-width: 900px;
+  background-color: white;
+  padding: 16px;
+  border-radius: 8px;
+  margin-block: 20px;
+}
+
+.close-area {
+  display: flex;
+  justify-content: end;
+  padding: 10px;
+}
+
+.modal-image {
+  width: 100%;
+  height: auto;
+}
+
+.modal-content {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.title-container {
+  width: 100%;
+  order: 1;
+}
+
+.modal-btn {
+  width: 100%;
+  display: flex;
+  gap: 10px;
+  align-items: start;
+  padding-top: 20px;
+  order: 3;
+}
+
+.modal-desc {
+  width: 100%;
+  order: 2;
+  font-family: 'Inter', sans-serif;
+  color: #344563;
+  line-height: 30px;
+}
+
+@media screen and (min-width: 40em) {
+  .title-container {
+    width: 65%;
+    order: 1;
+  }
+
+  .modal-btn {
+    width: 35%;
+    display: flex;
+    gap: 10px;
+    align-items: start;
+    padding-top: 20px;
+    order: 2;
+  }
+
+  .modal-desc {
+    width: 100%;
+    order: 3;
+    font-family: 'Inter', sans-serif;
+    color: #344563;
+    line-height: 30px;
+  }
+}
+
+.modal-title {
+  font-size: 32px;
+  color: #172b4d;
+  font-weight: 700;
+  font-family: 'Inter', sans-serif;
+}
+
+.custom-btn {
+  color: white;
+  background-color: #36b37e;
+  font-family: 'Inter', sans-serif;
+  border-radius: 8px;
+  padding: 8px 16px;
+  font-size: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tag-mobile {
+  background: #ebf0ee;
+  color: #3a4a42;
+  padding: 0.5em 0.75em 0.5em;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 0.75em;
+  line-height: 1em;
+  letter-spacing: 0.03em;
+  border-radius: 0.25em;
+}
+
+.card-tags-mobile {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: flex-start;
+  gap: 12px;
 }
