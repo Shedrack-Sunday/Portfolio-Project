@@ -31,7 +31,6 @@ linkContact.addEventListener('click', () => {
   navbar.classList.remove('hidden');
 });
 
-
 const dataCards = [
   {
     id: 0,
@@ -79,7 +78,7 @@ const dataCards = [
     tecnologies: {
       tech1: 'Rubi on rails',
       tech2: 'css',
-      tech3: 'JavaScript'
+      tech3: 'JavaScript',
     },
     linkVersion: 'https://www.google.com',
     linkSource: 'https://github.com/Shedrack-Sunday/',
@@ -115,7 +114,6 @@ const dataCards = [
       tech1: 'Rubi on rails',
       tech2: 'css',
       tech3: 'JavaScript',
-    
     },
     linkVersion: 'https://www.google.com',
     linkSource: 'https://github.com/Shedrack-Sunday/',
@@ -173,8 +171,7 @@ const cardWorkDetailsMobile = (index) => `
   </article>
   `;
 
-
-for (let i = 0; i < popuplist.length; i++) {
+for (let i = 0; i < popuplist.length; i +=1) {
   popuplist[i].addEventListener('click', () => {
     document.body.innerHTML = cardWorkDetailsMobile(i);
     const btnCloseDetailsMobile = document.querySelector('.btn-close-details');
