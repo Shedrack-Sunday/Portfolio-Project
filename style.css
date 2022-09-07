@@ -744,8 +744,7 @@ li {
     grid-column: -2 / -1;
     grid-row: 1/2;
   }
-
-}  
+}
 
 @media (min-width: 1050px) {
   .tag-mobile {
@@ -772,7 +771,7 @@ li {
     left: 0;
     grid-column: -2 / -1;
     grid-row: 1/2;
-    margin-bottom: 5px
+    margin-bottom: 5px;
   }
 
   .btn-close-details img {
@@ -887,7 +886,6 @@ li {
   top: 0%;
   right: 5%;
   background: none;
-  height: 12px;
   border: #d7dbdd;
   text-align: end;
   height: 0.5px;
