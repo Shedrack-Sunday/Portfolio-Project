@@ -187,3 +187,16 @@ for (let i = 0; i < popuplist.length; i += 1) {
     });
   });
 }
+
+const form = document.getElementById('form-main');
+const email = document.getElementById('email');
+const error = document.getElementById('error');
+
+form.addEventListener('submit', (event) => {
+  event.preventDefault();
+  if (email.value.toLowerCase() === email.value) {
+    form.submit();
+  } else {
+    error.innerHTML = 'Please input email in lower case';
+  }
+});
