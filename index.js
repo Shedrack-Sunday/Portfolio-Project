@@ -31,6 +31,7 @@ linkContact.addEventListener('click', () => {
   navbar.classList.remove('hidden');
 });
 
+
 const dataCards = [
   {
     id: 0,
@@ -187,3 +188,16 @@ for (let i = 0; i < popuplist.length; i += 1) {
     });
   });
 }
+
+const form = document.getElementById('form-main');
+const email = document.getElementById('email');
+const error = document.getElementById('error');
+
+form.addEventListener('submit', (event) => {
+  if (email.value.toLowerCase() !== email.value) {
+    event.preventDefault();
+    error.innerHTML = 'Please input email in lower case';
+  } else {
+    form.onsubmit();
+  }
+});
