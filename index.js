@@ -194,7 +194,7 @@ const error = document.getElementById('error');
 
 form.addEventListener('submit', (event) => {
   event.preventDefault();
-  if (email.value.toLowerCase() == email.value) {
+  if (email.value.toLowerCase() === email.value) {
     form.submit();
   } else {
     error.innerHTML = 'Please input email in lower case';
