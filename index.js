@@ -31,7 +31,6 @@ linkContact.addEventListener('click', () => {
   navbar.classList.remove('hidden');
 });
 
-
 const dataCards = [
   {
     id: 0,
@@ -194,8 +193,10 @@ const email = document.getElementById('email');
 const error = document.getElementById('error');
 
 form.addEventListener('submit', (event) => {
-  if (email.value.toLowerCase() !== email.value) {
-    event.preventDefault();
+  event.preventDefault();
+  if (email.value.toLowerCase() == email.value) {
+    form.submit();
+  } else {
     error.innerHTML = 'Please input email in lower case';
   }
 });
