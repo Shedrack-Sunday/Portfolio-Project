@@ -4,7 +4,7 @@ Portfolio to Microverse course
 #  Microverse Portfolio Project
 > Professional Portfolio using HTML, CSS
 
-### Check out in this [link](https://hendridg.github.io/Shedrack-Sunday/portfolio-Project.git)
+### Check out in this [link](https://hendridg.github.io/Shedrack-Sunday/Portfolio-Project.git)
 
 
 ## Built With
