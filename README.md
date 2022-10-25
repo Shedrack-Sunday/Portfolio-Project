@@ -1,49 +1,34 @@
-
+Portfolio to Microverse course
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Portfolio: Mobile first
+#  Microverse Portfolio Project
+> Professional Portfolio using HTML, CSS
 
-> Understand how to parse a Figma design to create a UI.
->Flexbox to replicate designs.
->Build a personal portfolio site.
->Use images and backgrounds to enhance the look of the website.
+### Check out in this [link](https://hendridg.github.io/Shedrack-Sunday/portfolio-Project.git)
 
 
 ## Built With
 
-- HTML/CSS
-- Figma
-- VSCode
+- HTML, CSS
 
-## Live Demo Link:
+## Getting Started
 
-[Live Demo Link](https://shedrack-sunday.github.io/Portfolio-Project/)
+To get a local copy up follow these simple example steps.
 
-## Authors
+### Prerequisites
+
+- GIT
+
+### Setup
+
+Open a terminal or a git bash in the desired directory and run `https://github.com/Shedrack-Sunday/portfolio-Project.git`
 
 👤 **Author**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-## Collabotator
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-
-
-
-## 🤝 Contributing
-
-Contributions, issues, and feature requests are welcome!
-
-Feel free to check the [issues page](../../issues/).
-
-## Show your support
-
-Give a ⭐️ if you like this project!
+- GitHub: [@Shedrack-Sunday](https://github.com/Shedrack-Sunday)
+- Twitter: [@DeleSundayS](https://twitter.com/hendridg)
+- LinkedIn: [Shedrack-Sunday](https://linkedin.com/in/Shedrack-Sunday)
 
 ## 📝 License
 
-This project is [MIT](./LICENSE) licensed.
-
+This project is [MIT](./MIT.md) licensed.
