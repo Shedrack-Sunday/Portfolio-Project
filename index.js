@@ -130,36 +130,33 @@ const dataCards = [
   },
   {
     id: 1,
-    url: './assest/img/catstronaut-project.png',
+    url: './assest/leaderboard.png',
     title:
-      'Castronauts project, complete app to learn the principal features of Apollo Library',
-    description: `Odyssey Lift-off V - Server, and Odyssey Lift-off V - Client, Course Companion App, 
-    Odyssey is Apollo's free interactive learning platform. It's the 
-    perfect place to start your GraphQL journey, and we'll be adding 
-    courses on more advanced features and topics soon.`,
+      ' A board built, utilizing callbacks and promises, proper ES6 syntax. ES6 modules to write modular JavaScript. Use webpack to bundle JavaScript.',
+    description: `The leaderboard is a page that let users ADD books based on authors and the respective books.
+    it fetches the data from an external API, then displayes the rsulting information on screen.`,
     tecnologies: {
-      tech1: 'React',
-      tech2: 'Apollo-client',
-      tech3: 'Apollo-server',
-      tech4: 'GraphQL',
+      tech1: 'Javastcrip',
+      tech2: 'webpack',
+      tech3: 'CSS',
+      tech4: 'GIthiub Actions',
     },
-    linkVersion: 'https://client-catstronauts-hg.herokuapp.com/',
-    linkSource: 'https://github.com/hendridg/odyssey-lift-off-part5-client',
+    linkVersion: 'https://shedrack-sunday.github.io/Leaderboard/dist/',
+    linkSource: 'https://github.com/Shedrack-Sunday/Leaderboard',
   },
   {
     id: 2,
-    url: './assest/img/netflix-clone-1.png',
-    title: 'Netflix Clone, Scrimba React-Advance course',
-    description: `Final Project from React Advance in Scrimba, excellent and complex work,
-     features like redirection, HOC's, Hooks, Firebase to authenticated, styled-components and more...`,
+    url: './assest/books.png',
+    title: 'Awesome Books',
+    description: `A Book app to add authors and their books. Built with JavaScript, Html, and CSS.`,
     tecnologies: {
-      tech1: 'React',
-      tech2: 'Firebase',
+      tech1: 'Webpack',
+      tech2: 'Html',
       tech3: 'JavaScript',
       tech4: 'css',
     },
-    linkVersion: 'https://netflix-clone-hendrid.herokuapp.com/',
-    linkSource: 'https://github.com/hendridg/netflix-clone',
+    linkVersion: 'https://shedrack-sunday.github.io/Awesome-Book/',
+    linkSource: 'https://github.com/Shedrack-Sunday/Awesome-Book',
   },
   {
     id: 3,
