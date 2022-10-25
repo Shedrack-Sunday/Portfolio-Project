@@ -148,7 +148,7 @@ const dataCards = [
     id: 2,
     url: './assest/books.png',
     title: 'Awesome Books',
-    description: ` A Book app to add authors and their books. Built with JavaScript, Html, and CSS. `,
+    description: ' A Book app to add authors and their books. Built with JavaScript, Html, and CSS.  ',
     tecnologies: {
       tech1: 'Webpack',
       tech2: 'Html',
