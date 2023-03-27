@@ -174,39 +174,31 @@ const dataCards = [
   },
   {
     id: 4,
-    url: './assest/img/work.jpg',
-    title: 'Keeping track of hundreds of components 4',
-    description: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-  industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
-  and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and
-  typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-  when an unknown printer took a galley of type and scrambled it 1960s with the relea`,
+    url: './assest/img/carRent.png',
+    title: 'Exiotic Car rent web app',
+    description: `Exotic Rentals is a car rental agencies primarily serve people who requires a temporary vehicle, It allows users to create an account, login, and book a car for a specific period of time. It also allows users to view all available cars, and view a specific car. It also allows users to view all bookings made by a specific user.`,
     tecnologies: {
       tech1: 'Rubi on rails',
-      tech2: 'css',
-      tech3: 'JavaScript',
-      tech4: 'html',
+      tech2: 'React',
+      tech3: 'Postgress',
+      tech4: 'Tailwind',
     },
-    linkVersion: 'https://www.google.com',
-    linkSource: 'https://github.com/hendridg/',
+    linkVersion: 'https://rentcars.onrender.com/',
+    linkSource: 'https://github.com/didierganthier/rent-a-car-backend/',
   },
   {
     id: 5,
-    url: './assest/img/about-me.jpg',
+    url: './assest/img/StockReact.png',
     title: 'Keeping track of hundreds of components 5',
-    description: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-  industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
-  and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and
-  typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-  when an unknown printer took a galley of type and scrambled it 1960s with the relea`,
+    description: `A Web App that displays the US stock market's best-performing stocks and details about each. Built with ReactJS, Material UI and ReduxToolkit.`,
     tecnologies: {
-      tech1: 'Rubi on rails',
+      tech1: 'React',
       tech2: 'css',
       tech3: 'JavaScript',
       tech4: 'html',
     },
-    linkVersion: 'https://www.google.com/',
-    linkSource: 'https://github.com/hendridg/',
+    linkVersion: 'https://github.com/Shedrack-Sunday/React-Stock-Data-Project',
+    linkSource: 'https://react-stock-data-project.vercel.app/',
   },
 ];
 
