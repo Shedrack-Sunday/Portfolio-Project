@@ -160,21 +160,17 @@ const dataCards = [
   },
   {
     id: 3,
-    url: './assest/img/life.jpg',
-    title: 'Keeping track of hundreds of components 3',
-    description: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-  industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
-  and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and
-  typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-  when an unknown printer took a galley of type and scrambled it 1960s with the relea`,
+    url: './assest/img/facialPic.png',
+    title: 'FascalFocus Budget App',
+    description: `The FiscalFucus web app is a budget app that allows users to add categories and get a summary of such. Built with Ruby on Rails, Postgres , device for authentication, cancan and Rspec for testing and bootstrap for styling`,
     tecnologies: {
       tech1: 'Rubi on rails',
-      tech2: 'css',
-      tech3: 'JavaScript',
-      tech4: 'html',
+      tech2: 'Boostrap',
+      tech3: 'Postgress',
+      tech4: 'Rspec',
     },
-    linkVersion: 'https://www.google.com',
-    linkSource: 'https://github.com/hendridg/',
+    linkVersion: 'https://fascalfocus1.onrender.com/',
+    linkSource: 'https://github.com/Shedrack-Sunday/FiscalFocus',
   },
   {
     id: 4,
