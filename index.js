@@ -183,7 +183,7 @@ const dataCards = [
       tech3: 'Postgress',
       tech4: 'Tailwind',
     },
-    linkVersion: 'https://rentcars.onrender.com/',
+    linkVersion: 'https://rent-a-car-seven.vercel.app/',
     linkSource: 'https://github.com/didierganthier/rent-a-car-backend/',
   },
   {
@@ -197,8 +197,8 @@ const dataCards = [
       tech3: 'JavaScript',
       tech4: 'html',
     },
-    linkVersion: 'https://github.com/Shedrack-Sunday/React-Stock-Data-Project',
-    linkSource: 'https://react-stock-data-project.vercel.app/',
+    linkVersion: 'https://react-stock-data-project.vercel.app/',
+    linkSource: 'https://github.com/Shedrack-Sunday/React-Stock-Data-Project',
   },
 ];
 

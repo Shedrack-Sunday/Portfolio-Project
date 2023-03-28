@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
 
+html {
+  scroll-behavior: smooth;
+}
+
 html,
 body {
   margin: 0;
@@ -8,7 +12,7 @@ body {
 
   --shadow: 0 2px 10px -1px rgba(0, 0, 0, 0.8);
   --shadow-accent: 0 2px 50px -1px rgba(0, 0, 0, 0.8);
-  --color-primary: #36b37e;
+  --color-primary: #25664a;
 }
 
 body {
