@@ -160,7 +160,7 @@ const dataCards = [
   },
   {
     id: 3,
-    url: './assest/img/facialPic.png',
+    url: './assest/img/fucusap.png',
     title: 'FascalFocus Budget App',
     description: `The FiscalFucus web app is a budget app that allows users to add categories and get a summary of such. Built with Ruby on Rails, Postgres , device for authentication, cancan and Rspec for testing and bootstrap for styling`,
     tecnologies: {
