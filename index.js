@@ -118,7 +118,7 @@ const dataCards = [
     url: './assest/ConfrencePage.png',
     title: 'Conference-Page-Design',
     description:
-      'Final Project from HTML and CSS course. An imaginary confrenec page app that details a cloud computing event',
+      'Final Project from HTML and CSS course. An imaginary conference page app that details a cloud computing event',
     tecnologies: {
       tech1: 'JavaScript',
       tech2: 'css',
@@ -134,7 +134,7 @@ const dataCards = [
     title:
       ' A board built, utilizing callbacks and promises, proper ES6 syntax. ES6 modules to write modular JavaScript. Use webpack to bundle JavaScript.',
     description: `The leaderboard is a page that let users ADD books based on authors and the respective books.
-    it fetches the data from an external API, then displayes the rsulting information on screen.`,
+    it fetches the data from an external API, then displays the resulting information on the screen.`,
     tecnologies: {
       tech1: 'Javastcrip',
       tech2: 'webpack',
@@ -162,7 +162,7 @@ const dataCards = [
     id: 3,
     url: './assest/img/fucusap.png',
     title: 'FascalFocus Budget App',
-    description: `The FiscalFucus web app is a budget app that allows users to add categories and get a summary of such. Built with Ruby on Rails, Postgres , device for authentication, cancan and Rspec for testing and bootstrap for styling`,
+    description: `The FiscalFucus web app is a budget app that allows users to add categories and get a summary of such. Built with Ruby on Rails, Postgres, device for authentication, cancan and Rspec for testing, and bootstrap for styling`,
     tecnologies: {
       tech1: 'Rubi on rails',
       tech2: 'Boostrap',
@@ -176,7 +176,7 @@ const dataCards = [
     id: 4,
     url: './assest/img/carRent.png',
     title: 'Exiotic Car rent web app',
-    description: `Exotic Rentals is a car rental agencies primarily serve people who requires a temporary vehicle, It allows users to create an account, login, and book a car for a specific period of time. It also allows users to view all available cars, and view a specific car. It also allows users to view all bookings made by a specific user.`,
+    description: `Exotic Rentals is a car rental agencies primarily serve people who require a temporary vehicle, It allows users to create an account, log in, and book a car for a specific period of time. It also allows users to view all available cars, and view a specific car. It also allows users to view all bookings made by a specific user.`,
     tecnologies: {
       tech1: 'Rubi on rails',
       tech2: 'React',
@@ -190,7 +190,7 @@ const dataCards = [
     id: 5,
     url: './assest/img/StockReact.png',
     title: 'Keeping track of hundreds of components 5',
-    description: `A Web App that displays the US stock market's best-performing stocks and details about each. Built with ReactJS, Material UI and ReduxToolkit.`,
+    description: `A Web App that displays the US stock market's best-performing stocks and details about each. Built with ReactJS, Material UI, and ReduxToolkit.`,
     tecnologies: {
       tech1: 'React',
       tech2: 'css',
