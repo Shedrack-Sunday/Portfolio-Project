@@ -169,7 +169,7 @@ const dataCards = [
       tech3: 'Postgress',
       tech4: 'Rspec',
     },
-    linkVersion: 'https://fascalfocus1.onrender.com/',
+    linkVersion: 'https://doctors-reservations.netlify.app/',
     linkSource: 'https://github.com/Shedrack-Sunday/FiscalFocus',
   },
   {
